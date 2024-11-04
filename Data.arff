@@ -1,0 +1,19 @@
+Data.arff
+@relation items
+@attribute milk{t,f}
+@attribute beer{t,f}
+@attribute diapers{t,f}
+@attribute bread{t,f}
+@attribute butter{t,f}
+@attribute cookies{t,f}
+@data
+t t t f f f
+t f f t t f
+t f t f f t
+f f f t t t
+f t t f f t
+t f t t t f
+f f t t t f
+f t t f f f
+t f t t t f
+f t f f f t
